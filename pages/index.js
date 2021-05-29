@@ -7,7 +7,7 @@ import SearchBar from '../components/SearchBar';
 
 export default function Home({filteredCoins}) {
   const [search, setSearch] = useState('');
-  const allCoins = filteredCoins.filter(coin => coin.name.toLowerCase().includes(search));
+  const allCoins = filteredCoins.filter(coin => coin.name.toLowerCase().includes(search.toLowerCase()));
   const handleInputChange = (e) => {
     e.preventDefault();
     setSearch(e.target.value);
