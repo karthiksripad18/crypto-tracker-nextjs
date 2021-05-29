@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #1f1e1e;
+}
+
+.hover-effect {
+  @apply transition duration-300 transform hover:-translate-y-1 hover:scale-110;
+}
