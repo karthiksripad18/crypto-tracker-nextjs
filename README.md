@@ -1,6 +1,6 @@
 CryptoCurrency Tracker Application
 
-Live: 
+Live: https://crypto-tracker-nextjs.vercel.app/
 
 Technologies used:
 1. Next.js
